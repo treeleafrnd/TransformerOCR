@@ -31,8 +31,8 @@ Since the batch size is 5 and training samples are 10,000, in order to complete 
 Clearly more epoches are needed to improve accuracy rate.
 
 # 1.Setup:
-  Clone this repository
-  Inside Clone https://github.com/rsommerfeld/trocr.git
+  a. Clone this repository
+  b .Inside Clone https://github.com/rsommerfeld/trocr.git
   
     1.1 Install Dependencies:
       conda env create -n trocr --file environment.yml (use environment-cpu.yml for CPU only)
