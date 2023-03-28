@@ -5,7 +5,10 @@ A TrOCR consists of encoder and a decoder where a encoder uses a pretrained mode
 This model can be trained in printed, handwritten or scene text dataset. An self attention model is required to overcome vanishing problem in LSTM. An attention model simply predicts the next word in a sequence, thus making OCR more accurate. The model is trained and fine tuned in IAM handwriting dataset.  
 This is an implementation of Transformer OCR in order to train handwritten documents for english and nepali text documents. The repository simply consists of a google colaboratory notebook for training and python files which can be used to integrate with larger industrial projects.
 
-For training and implementation entire credit goes to https://github.com/rsommerfeld/trocr.git 
+# Reference 
+   1. https://github.com/huggingface/transformers 
+   2. https://github.com/rsommerfeld/trocr.git 
+
 
 # Results:
 
